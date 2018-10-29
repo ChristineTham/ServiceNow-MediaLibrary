@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Check for Loans that are due within a day</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-10-29 06:56:07</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// The UI Action will run everything within the confines of this function
+(function checkForDueLoans() {
+
+  // The variable "gr" is a new GlideRecord object for the Loan table, meaning this is going to allows us to search through the Loan table
+  var gr = new GlideRecord('x_284403_media_lib_loan');
+
+  // From here, you are only querying active Loans
+  gr.addActiveQuery();
+
+  // A filter is being further applied to the Loans, returning only the ones where the Due date is within 1 day
+  gr.addEncodedQuery('due_date<=javascript:gs.daysAgoEnd(-1)');
+
+  // The queries above are executed, returning your dataset
+  gr.query();
+
+    // A loop that goes through every Loan returned by your query
+  while (gr.next()) {
+
+    // For every Loan that is active and due within a day, your event is fired off with that Loan in tow
+    gs.eventQueue('x_284403_media_lib.loan_due', gr);
+  }
+})();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-29 06:56:44</sys_created_on>
+        <sys_id>f80faf73db1523006300f53a29961944</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Check for Loans that are due within a day</sys_name>
+        <sys_package display_value="Media Library" source="x_284403_media_lib">22d913b3dbd123006300f53a29961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Media Library">22d913b3dbd123006300f53a29961950</sys_scope>
+        <sys_update_name>sysauto_script_f80faf73db1523006300f53a29961944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-29 07:03:35</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
