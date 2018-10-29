@@ -9,14 +9,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-29 06:37:26</sys_created_on>
         <sys_id>97baabbfdbd123006300f53a2996191e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>record_create_or_update</sys_name>
         <sys_package display_value="Media Library" source="x_284403_media_lib">22d913b3dbd123006300f53a29961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="Media Library">22d913b3dbd123006300f53a29961950</sys_scope>
         <sys_update_name>sys_hub_trigger_instance_97baabbfdbd123006300f53a2996191e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-29 06:37:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-29 06:50:34</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>

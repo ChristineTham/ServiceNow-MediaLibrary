@@ -5,7 +5,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Copy Status on Loan">46592b7fdbd123006300f53a299619f3</flow>
         <order>1.1</order>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-29 06:37:26</sys_created_on>
         <sys_id>5fbaabbfdbd123006300f53a29961926</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Media Library" source="x_284403_media_lib">22d913b3dbd123006300f53a29961950</sys_package>
         <sys_policy/>
         <sys_scope display_value="Media Library">22d913b3dbd123006300f53a29961950</sys_scope>
         <sys_update_name>sys_hub_action_instance_5fbaabbfdbd123006300f53a29961926</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-29 06:37:49</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-29 06:50:34</sys_updated_on>
         <ui_id>7972757c-f323-455e-9dcc-854aef667b64</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5fbaabbfdbd123006300f53a29961926"/>
