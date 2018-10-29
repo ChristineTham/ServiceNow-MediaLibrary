@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="format" table="x_284403_media_lib_copy" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blu-Ray</label>
+            <language>en</language>
+            <name>x_284403_media_lib_copy</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-29 05:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed3c5737dbd123006300f53a299619f9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-29 05:34:20</sys_updated_on>
+            <value>Blu-Ray</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardcover</label>
+            <language>en</language>
+            <name>x_284403_media_lib_copy</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-29 05:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a1c5bf3dbd123006300f53a29961957</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-29 05:33:48</sys_updated_on>
+            <value>Hardcover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paperback</label>
+            <language>en</language>
+            <name>x_284403_media_lib_copy</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-29 05:33:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de2cd737dbd123006300f53a2996197f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-29 05:34:02</sys_updated_on>
+            <value>Paperback</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VHS</label>
+            <language>en</language>
+            <name>x_284403_media_lib_copy</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-29 05:34:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d14c53f3dbd123006300f53a299619c2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-29 05:34:34</sys_updated_on>
+            <value>VHS</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>format</element>
+            <name>x_284403_media_lib_copy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-29 05:33:44</sys_created_on>
+            <sys_id>022c1b37dbd123006300f53a2996190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>format</sys_name>
+            <sys_package display_value="Media Library" source="x_284403_media_lib">22d913b3dbd123006300f53a29961950</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Media Library">22d913b3dbd123006300f53a29961950</sys_scope>
+            <sys_update_name>sys_choice_x_284403_media_lib_copy_format</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-29 05:33:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
