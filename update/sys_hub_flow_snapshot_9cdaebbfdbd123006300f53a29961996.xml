@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_copy_status_on_loan</internal_name>
+        <label_cache>[{"name":"7972757c-f323-455e-9dcc-854aef667b64.table_name","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"7972757c-f323-455e-9dcc-854aef667b64.record","label":"1.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.loaned_item","label":"Trigger➛Loan Record➛Loaned item","reference":"x_284403_media_lib_copy","reference_display":"Copy","type":"reference","base_type":"reference","parent_table_name":"x_284403_media_lib_loan","column_name":"loaned_item"},{"name":"cc0e8a06-a29f-40f5-86f1-def14b928b13.table_name","label":"2.1➛Loaned item Table","reference":"x_284403_media_lib_copy","reference_display":"Copy","type":"table_name","base_type":"table_name"},{"name":"cc0e8a06-a29f-40f5-86f1-def14b928b13.record","label":"2.1➛Loaned item Record","reference":"x_284403_media_lib_copy","reference_display":"Copy","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.active","label":"Trigger➛Loan Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_284403_media_lib_loan","column_name":"active"}]</label_cache>
+        <master>true</master>
+        <name>Update Copy Status on Loan</name>
+        <outputs/>
+        <parent_flow display_value="Update Copy Status on Loan">46592b7fdbd123006300f53a299619f3</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-29 06:37:47</sys_created_on>
+        <sys_id>9cdaebbfdbd123006300f53a29961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Copy Status on Loan</sys_name>
+        <sys_package display_value="Media Library" source="x_284403_media_lib">22d913b3dbd123006300f53a29961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Media Library">22d913b3dbd123006300f53a29961950</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_9cdaebbfdbd123006300f53a29961996</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-29 06:37:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9cdaebbfdbd123006300f53a29961996"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9cdaebbfdbd123006300f53a29961996"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>46592b7fdbd123006300f53a299619f3</id>
+        <name>Update Copy Status on Loan</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-29 06:31:21</sys_created_on>
+        <sys_id>8e592b7fdbd123006300f53a299619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Copy Status on Loan</sys_name>
+        <sys_package display_value="Media Library" source="x_284403_media_lib">22d913b3dbd123006300f53a29961950</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Media Library">22d913b3dbd123006300f53a29961950</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_8e592b7fdbd123006300f53a299619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-29 06:31:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
